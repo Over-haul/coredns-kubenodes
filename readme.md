@@ -1,4 +1,4 @@
-# ivy-coredns
+# coredns-kubenodes
 
 This is a customized packaging of CoreDNS to include some plugins we find useful.
 
