@@ -28,7 +28,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::645843940509:role/github-actions-ecr-public-create-read-write
-          role-duration-seconds: 300 # 5 minutes should be enough for build-and-push
+          role-duration-seconds: 900 # Member must have value greater than or equal to 900
           aws-region: us-east-1
       # Using this until https://github.com/aws-actions/amazon-ecr-login/issues/116
       # is closed
