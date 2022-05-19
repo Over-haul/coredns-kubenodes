@@ -34,7 +34,7 @@ jobs:
       # is closed
       - name: Build and Push to ECR public
         id: build-and-push
-        uses: pahud/ecr-public-action@0db8adb
+        uses: pahud/ecr-public-action@0db8adbcfd3c3ec2f604d70fdd6b5d15c80e1dbc
         with:
           tags: |
             public.ecr.aws/e5r9m0c5/${{ steps.repoName.outputs.reponame }}:latest
