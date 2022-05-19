@@ -2,7 +2,7 @@ FROM golang:1.17.5-stretch
 
 ARG coredns_version=1.8.6
 ARG plugin_name=kubenodes
-ARG plugin_repo=github.com/chrisohaver/kubenodes
+ARG plugin_repo=github.com/infobloxopen/kubenodes
 
 RUN go mod download github.com/coredns/coredns@v${coredns_version}
 
